@@ -4,6 +4,7 @@ import { siteConfig } from "../config";
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasSkills = siteConfig.skills && Object.keys(siteConfig.skills).length > 0;
 ---
 
 <header
@@ -19,19 +20,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         >
           About
         </a>
-      </li>
-      {
-        hasProjects && (
-          <li>
-            <a
-              href="#projects"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Projects
-            </a>
-          </li>
-        )
-      }
+      </li> 
       {
         hasExperience && (
           <li>
@@ -40,6 +29,30 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Experience
+            </a>
+          </li>
+        )
+      }
+      {
+        hasSkills && (
+          <li>
+            <a
+              href="#skills"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Skills
+            </a>
+          </li>
+        )
+      }
+      {
+        hasProjects && (
+          <li>
+            <a
+              href="#projects"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Projects
             </a>
           </li>
         )
