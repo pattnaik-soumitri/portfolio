@@ -89,7 +89,7 @@ export const siteConfig = {
   education: [
     {
       school: "Biju Patnaik University of Technology",
-      degree: "Bachelor of Science in Computer Science",
+      degree: "Bachelor of Technology in Computer Science",
       dateRange: "2008 - 2012",
       achievements: [
         "Organized and hosted ECOSS 2011 & 2012, tech event held on Software Freedom Day, promoting open-source awareness.",
