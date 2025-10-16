@@ -40,7 +40,7 @@ export const siteConfig = {
       skills: ["Vue 3", "Pocketbase", "PicoCSS"],
     },
     {
-      name: "AUS Orders: Order placement system for a pharmacutical comapny",
+      name: "AUS Orders: Order placement system",
       description: "Order placement system for a pharmacutical comapny, enabling their sales team to place orders on the go, with real-time order tracking and inventory management.",
       link: "https://github.com/pattnaik-soumitri/DevKube",
       skills: ["Vue 3", "Firebase", "Firestore", "Chart.js", "PicoCSS"],
