@@ -19,7 +19,7 @@ export const siteConfig = {
     cloud: ["Google Cloud Platform", "PubSub", "Dataflow", "BigQuery", "GKE", "Composer", "Cloud Function", "Cloud Run", "CloudSQL", "Cloud Storage", "Cloud Scheduler", "Cloud Memorystore", "IAM", "AWS", "EC2", "Lambdas", "S3", "RDS", "Aurora", "Firebase", "Firestore", "Supabase", "Pocketbase"],
     devOps: ["Kubernetes", "Docker", "Containerd", "Jenkins", "Github CI", "ArgoCD", "Linux", "Shell", "Raspberry Pi", "SSH"],
     programmingLanguage: ["Java", "JavaScript", "TypeScript", "Python", "Go"],
-    backend: ["Spring Boot", "Express", "Nest JS", "Apache Beam", "Apache Airflow", "Flask"],
+    backend: ["Spring Boot", "Node.js", "Express", "NestJS", "Apache Beam", "Apache Airflow", "Flask"],
     frontend: ["Vue 3", "Astro", "Angular", "Electron", "Go Wails", "Alpine.js", "HTML", "CSS", "Markdown", "Bootstrap", "Bulma", "PicoCss"],
     database: ["MySQL", "Postgres", "BigQuery", "SQLite", "MongoDB", "Cassandra", "Redis", "Spanner"],
     messaging: ["PubSub", "Kafka", "Redpanda", "RabbitMQ", "EMQX"],
@@ -41,7 +41,7 @@ export const siteConfig = {
     },
     {
       name: "AUS Orders: Order placement system for a pharmacutical comapny",
-      description: "Cross-platform desktop app that brings Kubernetes to your fingertips — perform common kubectl operations, view services, and manage clusters with a single click.",
+      description: "Order placement system for a pharmacutical comapny, enabling their sales team to place orders on the go, with real-time order tracking and inventory management.",
       link: "https://github.com/pattnaik-soumitri/DevKube",
       skills: ["Vue 3", "Firebase", "Firestore", "Chart.js", "PicoCSS"],
     },
