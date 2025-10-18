@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/pattnaik-soumitri",
   },
   aboutMe: [
-    "I build distributed systems, data insgestion systems, microservice backends, web & desktop applications using Cloud, Kubertestes and Full-Stack technologies — brining over 12 years of industry experience and a genuine passion for clean design, automation, developer productivity and tech in general.",
+    "I build distributed systems, data insgestion systems, microservice backends, web & desktop applications using Cloud, Kubernetes and Full-Stack technologies — brining over 12 years of industry experience and a genuine passion for clean design, automation, developer productivity and tech in general.",
     "Outside of work, I love building tools that simplify real-world workflows, exploring everything from cloud architectures and system designs to Linux setups, Raspberry Pis, developer tooling - and yes, I'm always up for a good chat about tech, gadgets, or games.",
     "Building since 2008",
   ],
